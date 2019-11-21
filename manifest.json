@@ -1,0 +1,27 @@
+{
+ "update_url": "https://clients2.google.com/service/update2/crx",
+ "manifest_version": 2,
+ "default_locale": "en",
+ "name": "__MSG_extensionName__",
+ "short_name": "__MSG_extensionShortName__",
+ "author": "__MSG_extensionAuthors__",
+ "description": "__MSG_extensionDescription__",
+ "version": "1.4",
+ "icons":
+  {
+   "48": "icons/unreadtab48.png",
+   "96": "icons/unreadtab96.png",
+   "128": "icons/unreadtab128.png"
+  },
+ "background": {"scripts": ["background.js"]},
+ "options_page": "options.html",
+ "permissions":
+  [
+   "activeTab",
+   "tabs",
+   "http://*/*",
+   "https://*/*",
+   "background",
+   "storage"
+  ]
+}
