@@ -10,7 +10,7 @@ for (i = 0; i < objects.length; i++)
 
 function loadOptions() {
   chrome.storage.sync.get(
-    {'prefix': '• '},
+    {'prefix': 'â€¢ '},
     function(items) {document.getElementById('prefix').value = items.prefix;}
   );
 };
