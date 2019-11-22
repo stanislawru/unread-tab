@@ -9,7 +9,7 @@ chrome.storage.sync.get
 
     var observer = new MutationObserver(function(mutations) {
       mutations.forEach(function(mutation) {
-        if (!document['isReadTab'] && !document.title.startsWith(prefix)) {
+        if (!document['isReadTab_kiUZ19'] && !document.title.startsWith(prefix)) {
           document.title = prefix + document.title;
         }
       });
@@ -19,7 +19,7 @@ chrome.storage.sync.get
     };
     observer.observe(target, config);
 
-    if (!document['isReadTab']) {
+    if (!document['isReadTab_kiUZ19']) {
       document.title = prefix + document.title;
     }
   }
