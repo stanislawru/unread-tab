@@ -9,8 +9,8 @@
  "version": "1.4",
  "icons":
   {
-   "48": "icons/unreadtab48.png",
-   "96": "icons/unreadtab96.png",
+   "48": "icons/unreadtab048.png",
+   "96": "icons/unreadtab096.png",
    "128": "icons/unreadtab128.png"
   },
  "background": {"scripts": ["background.js"]},
