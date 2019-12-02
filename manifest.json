@@ -6,7 +6,7 @@
  "short_name": "__MSG_extensionShortName__",
  "author": "__MSG_extensionAuthors__",
  "description": "__MSG_extensionDescription__",
- "version": "1.5.4",
+ "version": "1.6",
  "icons":
   {
    "48": "icons/unreadtab048.png",
