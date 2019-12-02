@@ -13,7 +13,6 @@
  "optionsSave": {"message": "Speichern"},
  "optionsSaved": {"message": "Optionen wurden gespeichert."},
  "feature2": {"message": "die Nutzungsüberwachung entfernt \uD83D\uDE2E;"},
- "feature3": {"message": "die russische \uD83C\uDDF7\uD83C\uDDFA Sprache;"},
- "feature4": {"message": "die deutsche \uD83C\uDDE9\uD83C\uDDEA Sprache."},
+ "feature3": {"message": "die russisch \uD83C\uDDF7\uD83C\uDDFA und deutsch \uD83C\uDDE9\uD83C\uDDEA Sprachen."},
  "extensionDescription5": {"message": "Das Projekt ist Open Source und öffentlich <a href=\"https://github.com/stanislawru/unread-tab\" target=\"_blank\">bei GitHub</a>."}
 }
