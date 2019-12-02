@@ -5,12 +5,15 @@
  "extensionDescription": {"message": "Markiert nicht besuchte / ungelesene (im Hintergrund geöffnete) Tabs, sodass Sie leicht erkennen können, welche Tabs noch gelesen werden müssen."},
  "extensionOptions": {"message": "Optionen für ungelesene Tabs"},
  "extensionDescription1": {"message": "Markiert nicht besuchte / ungelesene (im Hintergrund geöffnet, normalerweise mit der mittleren Maustaste) Tabs, um zu erkennen, welche Tabs noch gelesen / besucht werden müssen."},
- "extensionDescription2": {"message": "Sie werden leicht wissen, welche Tab Sie geöffnet haben, haben sie jedoch noch nicht untersucht. Dies ist besonders nützlich, wenn Sie im Internet nach etwas suchen und viele Links im Hintergrund öffnen. Nach einer Weile sind Sie möglicherweise verwirrt, welche Tabs Sie gelesen haben und worauf Sie noch achten müssen."},
- "extensionDescription3": {"message": "Diese Erweiterung behebt das Problem. Sie werden immer wissen, welche Tabs noch nie besucht wurden."},
- "extensionDescription4": {"message": "Die angegebene <b>Version 1.4</b> basiert auf <a href=\"https://chrome.google.com/webstore/detail/unread-tab/ofblopofekndelpkceaodkjcnfacmcfp\" target=\"_blank\">dem originalen Unread Tab</a> 1.3 von Adam Grodzki und ist inspiriert den Bedürfnissen von Anton Marchenko. 😉"},
- "extensionDescription5": {"message": "Die Hauptunterschiede dieser Version sind die russische Sprache und"},
- "optionsHeading": {"message": "Optionen"},
- "optionsPrefix": {"message": "Präfix"},
+ "extensionDescription2": {"message": "Sie werden leicht wissen, welche Tab Sie geöffnet haben, haben sie jedoch noch nicht untersucht. Dies ist besonders nützlich, wenn Sie im Internet nach etwas suchen und viele Links im Hintergrund öffnen. Nach einer Weile sind Sie möglicherweise verwirrt, welche Tabs Sie gelesen haben und worauf Sie noch achten müssen. Diese Erweiterung behebt das Problem. Sie werden immer wissen, welche Tabs noch nie besucht wurden."},
+ "extensionDescription3": {"message": "Die angegebene Version basiert auf <a href=\"https://chrome.google.com/webstore/detail/unread-tab/ofblopofekndelpkceaodkjcnfacmcfp\" target=\"_blank\">dem originalen Unread Tab</a> 1.3 von Adam Grodzki und ist inspiriert den Bedürfnissen von Anton Marchenko. \uD83D\uDE09 und seiner Erfahrung im Umgang mit „Yandex.Browser“."},
+ "extensionDescription4": {"message": "Die Hauptunterschiede dieser Version sind:"},
+ "optionsHeading": {"message": "die Optionen"},
+ "optionsPrefix": {"message": "das Präfix"},
  "optionsSave": {"message": "Speichern"},
- "optionsSaved": {"message": "Optionen wurden gespeichert."}
+ "optionsSaved": {"message": "Optionen wurden gespeichert."},
+ "feature2": {"message": "die Nutzungsüberwachung entfernt \uD83D\uDE2E;"},
+ "feature3": {"message": "die russische \uD83C\uDDF7\uD83C\uDDFA Sprache;"},
+ "feature4": {"message": "die deutsche \uD83C\uDDE9\uD83C\uDDEA Sprache."},
+ "extensionDescription5": {"message": "Das Projekt ist Open Source und öffentlich <a href=\"https://github.com/stanislawru/unread-tab\" target=\"_blank\">bei GitHub</a>."}
 }
