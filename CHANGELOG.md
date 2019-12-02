@@ -2,6 +2,10 @@
 
 The changes log aka versions history is below in the reverse chronological order (the latest version is at the top).
 
+## Version 1.6 
+* The <b>German language</b> was added to the extension along with keeping the English and Russian ones.
+* Minor language mistakes were fixed as well.    
+
 ## Version 1.5.4 
 * The given changes log file were created and written for those who read it now. 😊
 * The mention of the open-source project and the link to it were added to the options page and the language translations of it.    
