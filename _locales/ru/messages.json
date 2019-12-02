@@ -6,7 +6,7 @@
  "extensionOptions": {"message": "Параметры «Непрочитанной вкладки»"},
  "extensionDescription1": {"message": "Отмечает непосещённые/непрочитанные (открытые в фоне, обычно средней кнопкой мыши) вкладки, так что легко распознать, какие вкладки всё ещё требуют прочтения/посещения."},
  "extensionDescription2": {"message": "Вы легко узнаете, какую вкладку вы открыли, но ещё не заглянули в неё. Это особенно полезно, когда вы ищете что-то в Интернете, открывая много ссылок в фоновом режиме. Через некоторое время вы можете запутаться, какие вкладки вы прочитали, а что вам ещё нужно посмотреть. Это расширение решает проблему. Вы всегда будете знать, какие вкладки пока не посещались."},
- "extensionDescription3": {"message": "Данная версия основана на <a href=\"https://chrome.google.com/webstore/detail/unread-tab/ofblopofekndelpkceaodkjcnfacmcfp\" target=\"_blank\">оригинальном расширении Unread Tab</a> 1.3 от Адама Гродзки и вдохновлена потребностями Антона Марченко \uD83D\uDE09 и его опытом использования «Яндекс.Браузера»."},
+ "extensionDescription3": {"message": "Данная версия основана на <a href=\"https://chrome.google.com/webstore/detail/unread-tab/ofblopofekndelpkceaodkjcnfacmcfp\" target=\"_blank\">оригинальном расширении Unread Tab</a> 1.3 от Адама Гродзки и вдохновлена потребностями <a href=\"https://github.com/anton-marchenko\" target=\"_blank\">Антона Марченко</a> \uD83D\uDE09 и его опытом использования «Яндекс.Браузера»."},
  "extensionDescription4": {"message": "Главные отличия этой версии:"},
  "optionsHeading": {"message": "Параметры"},
  "optionsPrefix": {"message": "Префикс"},

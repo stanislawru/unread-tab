@@ -6,7 +6,7 @@
  "extensionOptions": {"message": "Unread Tab's Options"},
  "extensionDescription1": {"message": "Flags unvisited/unread (opened in the background, usually with the middle click) tabs, so it is easy to recognise what tabs still need to be read/visited."},
  "extensionDescription2": {"message": "You will easily know what tab you opened but have not yet looked into it. It is especially useful when you are searching for something on the internet, opening many links in the background. After a while you may be confused what tabs you have read and what you still need to look into. This extension solves the issue. You will always know what tabs was never visited."},
- "extensionDescription3": {"message": "The given version is based on <a href=\"https://chrome.google.com/webstore/detail/unread-tab/ofblopofekndelpkceaodkjcnfacmcfp\" target=\"_blank\">the original Unread Tab</a> 1.3 by Adam Grodzki and inspired by Anton Marchenko's needs \uD83D\uDE09 and his experience in using “Yandex.Browser”."},
+ "extensionDescription3": {"message": "The given version is based on <a href=\"https://chrome.google.com/webstore/detail/unread-tab/ofblopofekndelpkceaodkjcnfacmcfp\" target=\"_blank\">the original Unread Tab</a> 1.3 by Adam Grodzki and inspired by <a href=\"https://github.com/anton-marchenko\" target=\"_blank\">Anton Marchenko's</a> needs \uD83D\uDE09 and his experience in using “Yandex.Browser”."},
  "extensionDescription4": {"message": "The main differences of this version are:"},
  "optionsHeading": {"message": "Options"},
  "optionsPrefix": {"message": "Prefix"},
