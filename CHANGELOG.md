@@ -2,7 +2,10 @@
 
 The changes log aka versions history is below in the reverse chronological order (the latest version is at the top).
 
-## Version 1.6.1 
+## Version 1.6.2
+* One more fork's advantage was added to its descriptions on the option(s) page.    
+
+## Version 1.6.1
 * Minor German language mistakes were fixed.    
 
 ## Version 1.6 
@@ -13,7 +16,7 @@ The changes log aka versions history is below in the reverse chronological order
 * The given changes log file were created and written for those who read it now. 😊
 * The mention of the open-source project and the link to it were added to the options page and the language translations of it.    
 
-## Version 1.5.3 
+## Version 1.5.3
 * The vector and 96/128 raster icons of the extension were updated to be more accurate.   
 
 ## Version 1.5.1
@@ -23,7 +26,7 @@ The changes log aka versions history is below in the reverse chronological order
 
 ## Version 1.5
 * Code factoring and optimization were made.
-* Unread flags are now stored as separate boolean values and restored even if a tab's title is automatically changed (e.&nbsp;g. by YouTube).  
+* Unread flags are now stored as separate boolean values and restored even if tabs' titles are automatically changed (e.&nbsp;g. by YouTube).  
 
 ## Version 1.4
 * The project made <b>open-source</b> <a href="https://github.com/stanislawru/unread-tab" target="_blank">at GitHub</a>.
