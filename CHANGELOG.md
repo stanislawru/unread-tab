@@ -3,7 +3,8 @@
 The changes log aka versions history is below in the reverse chronological order (the latest version is at the top).
 
 ## Version 1.6.2
-* One more fork's advantage was added to its descriptions on the option(s) page.    
+* One more fork's advantage was added to its descriptions on the option(s) page.
+* The MIT license was added to the GitHub repository.     
 
 ## Version 1.6.1
 * Minor German language mistakes were fixed.    
