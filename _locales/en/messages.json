@@ -1,7 +1,7 @@
 {
  "extensionName": {"message": "Unread Tab"},
  "extensionShortName": {"message": "UnreadTab"},
- "extensionAuthors": {"message": "Adam Grodzki, Stanislav Ogryzkov"},
+ "extensionAuthors": {"message": "Adam Grodzki, Stanislav Ogryzkov, Anton Marchenko"},
  "extensionDescription": {"message": "Flags unvisited/unread (opened in the background) tabs, so it is easy to recognise what tabs still need to be read."},
  "extensionOptions": {"message": "Unread Tab's Options"},
  "extensionDescription1": {"message": "Flags unvisited/unread (opened in the background, usually with the middle click) tabs, so it is easy to recognise what tabs still need to be read/visited."},

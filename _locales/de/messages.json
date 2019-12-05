@@ -1,7 +1,7 @@
 {
  "extensionName": {"message": "Ungelesene Tab"},
  "extensionShortName": {"message": "UngeleseneTab"},
- "extensionAuthors": {"message": "Adam Grodzki, Stanislav Ogryzkov"},
+ "extensionAuthors": {"message": "Adam Grodzki, Stanislav Ogryzkov, Anton Marchenko"},
  "extensionDescription": {"message": "Markiert nicht besuchte / ungelesene (im Hintergrund geöffnete) Tabs, sodass Sie leicht erkennen können, welche Tabs noch gelesen werden müssen."},
  "extensionOptions": {"message": "Optionen für ungelesene Tabs"},
  "extensionDescription1": {"message": "Markiert nicht besuchte / ungelesene (im Hintergrund geöffnet, normalerweise mit der mittleren Maustaste) Tabs, um zu erkennen, welche Tabs noch gelesen / besucht werden müssen."},
