@@ -2,6 +2,11 @@
 
 The changes log aka versions history is below in the reverse chronological order (the latest version is at the top).
 
+## Version 1.6.3
+* The extension's authors list was fixed.
+* The code was beautified a little bit.
+* Working with chrome:// and chrome-extension:// URLs was fixed.     
+
 ## Version 1.6.2
 * One more fork's advantage was added to its descriptions on the option(s) page.
 * The MIT license was added to the GitHub repository.     
@@ -37,5 +42,3 @@ The changes log aka versions history is below in the reverse chronological order
  
 ## Version 1.3
 * <a href="https://chrome.google.com/webstore/detail/unread-tab/ofblopofekndelpkceaodkjcnfacmcfp?hl=ru" target="_blank">The original Unread Tab</a> 1.3 by Adam Grodzki.
-
-© 2019 StanisLaw.ru, Anton Marchenko 
