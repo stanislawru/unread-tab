@@ -9,6 +9,6 @@ chrome.storage.sync.get
      {
       document.title = title.substr(prefix.length, title.length);
       document['isReadTab_kiUZ19'] = true;
-     };
+     }
    }
  );
