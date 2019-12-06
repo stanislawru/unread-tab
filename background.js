@@ -1,7 +1,9 @@
 function handleActivated(activeInfo) {
     function onExecuted(result) {
     }
-    if (activeInfo.url) if (activeInfo.url.startsWith('http')) chrome.tabs.executeScript(activeInfo.tabId, {file: '/visited.js'}, onExecuted);
+    chrome.tabs.get(activeInfo.tabId, function (tab) {
+        if (tab.url) if (tab.url.startsWith('http')) chrome.tabs.executeScript(activeInfo.tabId, {file: '/visited.js'}, onExecuted);
+    })
 }
 
 chrome.tabs.onActivated.addListener(handleActivated);
