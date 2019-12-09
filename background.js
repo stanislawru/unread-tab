@@ -1,5 +1,7 @@
-const addTitleMarker = (prefix) => "document.title = '" + prefix + "' + document.title;";
-const removeTitleMarker = (prefix) => "document.title = document.title.substr(" + prefix.length + ", document.title.length);";
+const setPageTitleClientScript = (title) => "document.title = '" + title + "';";
+const setTabTitle = (tabId, newTitle) => chrome.tabs.executeScript(tabId, {
+  code: setPageTitleClientScript(newTitle)
+});
 
 chrome.storage.sync.get
 (
@@ -9,14 +11,16 @@ chrome.storage.sync.get
 
    chrome.tabs.onActivated.addListener((activeInfo) => {
     chrome.tabs.get(activeInfo.tabId, function (tab) {
+      const tabTitle = tab.title || '';
      if (
        tab.url
        && tab.url.startsWith('http')
-       && (tab.title || '').startsWith(prefix)
+       && tabTitle.trim().startsWith(prefix.trim())
      ) {
-      chrome.tabs.executeScript(activeInfo.tabId, {
-       code: removeTitleMarker(prefix)
-      })
+       const deleteCount = prefix > tabTitle.length ? tabTitle.length : prefix.length;
+       const beginSliceIndex = deleteCount - 1 > 0 ? deleteCount - 1 : 0;
+       const newTitleWithoutPrefix = tabTitle.slice(beginSliceIndex);
+       setTabTitle(activeInfo.tabId, newTitleWithoutPrefix);
      }
     })
    });
@@ -29,9 +33,8 @@ chrome.storage.sync.get
       && tabInfo.url.startsWith('http')
       && !(tabInfo.title || '').startsWith(prefix)
     ) {
-     chrome.tabs.executeScript(tabId, {
-      code: addTitleMarker(prefix)
-     })
+      const newTitle = prefix + tabInfo.title;
+      setTabTitle(tabId, newTitle);
     }
    });
   }
