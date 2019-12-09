@@ -2,6 +2,10 @@
 
 The changes log aka versions history is below in the reverse chronological order (the latest version is at the top).
 
+## Version 1.6.5
+* Some refactoring.
+* Fix: unread marks aren't removed from non-HTML documents
+
 ## Version 1.6.4
 * The JS code was re-formatted.
 * Right/wrong protocols check for the visited tabs was fixed.     

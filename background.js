@@ -1,19 +1,41 @@
-function handleActivated(activeInfo) {
-    function onExecuted(result) {
-    }
+const setPageTitleClientScript = (title) => "document.title = '" + title + "';";
+const setTabTitle = (tabId, newTitle) => chrome.tabs.executeScript(tabId, {
+  code: setPageTitleClientScript(newTitle)
+});
+
+chrome.storage.sync.get
+(
+  {'prefix': '• '},
+  (items) => {
+   const prefix = items.prefix;
+
+   chrome.tabs.onActivated.addListener((activeInfo) => {
     chrome.tabs.get(activeInfo.tabId, function (tab) {
-        if (tab.url) if (tab.url.startsWith('http')) chrome.tabs.executeScript(activeInfo.tabId, {file: '/visited.js'}, onExecuted);
+      const tabTitle = tab.title || '';
+     if (
+       tab.url
+       && tab.url.startsWith('http')
+       && tabTitle.trim().startsWith(prefix.trim())
+     ) {
+       const deleteCount = prefix > tabTitle.length ? tabTitle.length : prefix.length;
+       const beginSliceIndex = deleteCount - 1 > 0 ? deleteCount - 1 : 0;
+       const newTitleWithoutPrefix = tabTitle.slice(beginSliceIndex);
+       setTabTitle(activeInfo.tabId, newTitleWithoutPrefix);
+     }
     })
-}
+   });
 
-chrome.tabs.onActivated.addListener(handleActivated);
-
-function handleUpdated(tabId, changeInfo, tabInfo) {
-    if (changeInfo.status === 'complete') {
-        function onExecuted(result) {
-        }
-        if (tabInfo.url) if ((!tabInfo.active) && tabInfo.url.startsWith('http')) chrome.tabs.executeScript(tabId, {file: '/opened.js'}, onExecuted);
+   chrome.tabs.onUpdated.addListener((tabId, changeInfo, tabInfo) => {
+    if (
+      changeInfo.status === 'complete'
+      && !tabInfo.active
+      && tabInfo.url
+      && tabInfo.url.startsWith('http')
+      && !(tabInfo.title || '').startsWith(prefix)
+    ) {
+      const newTitle = prefix + tabInfo.title;
+      setTabTitle(tabId, newTitle);
     }
-}
-
-chrome.tabs.onUpdated.addListener(handleUpdated);
+   });
+  }
+);
