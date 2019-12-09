@@ -36,5 +36,3 @@ chrome.storage.sync.get
    });
   }
 );
-
-
