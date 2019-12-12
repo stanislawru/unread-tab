@@ -9,9 +9,9 @@
  "version": "1.6.4",
  "icons":
   {
-   "48": "icons/unreadtab048.png",
-   "96": "icons/unreadtab096.png",
-   "128": "icons/unreadtab128.png"
+   "48": "icons/unread-tab-048x096.png",
+   "96": "icons/unread-tab-096x096.png",
+   "128": "icons/unread-tab-128x128.png"
   },
  "background": {"scripts": ["background.js"]},
  "options_page": "options.html",
