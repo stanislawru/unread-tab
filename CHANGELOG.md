@@ -2,6 +2,9 @@
 
 The changes log aka versions history is below in the reverse chronological order (the latest version is at the top).
 
+## Version 1.6.6
+* The extension's logo was replaced with a better one, re-drawn in vector by Diana Kozintseva.
+
 ## Version 1.6.5
 * Some refactoring.
 * Fix: unread marks weren't removed from non-HTML documents.
