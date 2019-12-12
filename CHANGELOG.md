@@ -4,7 +4,7 @@ The changes log aka versions history is below in the reverse chronological order
 
 ## Version 1.6.5
 * Some refactoring.
-* Fix: unread marks aren't removed from non-HTML documents
+* Fix: unread marks weren't removed from non-HTML documents.
 
 ## Version 1.6.4
 * The JS code was re-formatted.
