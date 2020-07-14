@@ -6,7 +6,7 @@
  "short_name": "__MSG_extensionShortName__",
  "author": "__MSG_extensionAuthors__",
  "description": "__MSG_extensionDescription__",
- "version": "1.6.6",
+ "version": "1.7.0",
  "icons":
   {
    "48": "icons/unread-tab-048x048.png",
@@ -18,10 +18,10 @@
  "permissions":
   [
    "activeTab",
-   "tabs",
+   "background",
    "http://*/*",
    "https://*/*",
-   "background",
-   "storage"
+   "storage",
+   "tabs"
   ]
 }
