@@ -1,12 +1,16 @@
 const setPageTitleClientScript = (title) => "document.title = '" + title + "';";
+
 const setTabTitle = (tabId, newTitle) => chrome.tabs.executeScript(tabId, {
     code: setPageTitleClientScript(newTitle)
 });
 
 chrome.storage.sync.get
 (
+
     {'prefix': '• '},
+
     (items) => {
+
         const prefix = items.prefix;
 
         chrome.tabs.onActivated.addListener((activeInfo) => {
@@ -22,10 +26,10 @@ chrome.storage.sync.get
                     const beginSliceIndex = deleteCount - 1 > 0 ? deleteCount - 1 : 0;
                     const newTitleWithoutPrefix = tabTitle.slice(beginSliceIndex);
                     setTabTitle(activeInfo.tabId, newTitleWithoutPrefix);
-                    var object = {};
-                    object[varName] = 'Activated';
-                    chrome.storage.local.set(object);
-                }
+                };
+                var object = {};
+                object[varName] = 'Activated';
+                chrome.storage.local.set(object);
             })
         });
 
@@ -48,5 +52,7 @@ chrome.storage.sync.get
 		};
             });
         });
+
     }
+
 );
