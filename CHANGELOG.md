@@ -2,10 +2,13 @@
 
 The changes log aka versions history is below in the reverse chronological order (the latest version is at the top).
 
+## Version 1.7.1
+* Fix: activated tabs' statuses were stored in the local storage in an unreliable way.
+
 ## Version 1.7.0
 * Fix: unread mark/prefix is re-added when a read tab is reloaded.
 * Fix: unread mark/prefix is not re-added when an unread tab is reloaded.
-* ^^^ by that now tabs' un/read statuses are stored not in documents but in a local storage.
+* ^^^ by that now tabs' un/read statuses are stored not in documents but in the local storage.
 
 ## Version 1.6.6
 * The extension's logo was replaced with a better one, re-drawn in vector by Diana Kozintseva.
