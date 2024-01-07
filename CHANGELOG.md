@@ -2,6 +2,9 @@
 
 The changes log aka versions history is below in the reverse chronological order (the latest version is at the top).
 
+## Version 1.7.2
+* The manifest was updated to the version 3.
+
 ## Version 1.7.1
 * Fix: activated tabs' statuses were stored in the local storage in an unreliable way.
 

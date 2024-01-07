@@ -1,12 +1,12 @@
 {
  "update_url": "https://clients2.google.com/service/update2/crx",
- "manifest_version": 2,
+ "manifest_version": 3,
  "default_locale": "en",
  "name": "__MSG_extensionName__",
  "short_name": "__MSG_extensionShortName__",
  "author": "__MSG_extensionAuthors__",
  "description": "__MSG_extensionDescription__",
- "version": "1.7.1",
+ "version": "1.7.2",
  "icons":
   {
    "48": "icons/unread-tab-048x048.png",
@@ -19,9 +19,12 @@
   [
    "activeTab",
    "background",
-   "http://*/*",
-   "https://*/*",
    "storage",
    "tabs"
+  ],
+ "host_permissions":
+  [
+   "http://*/*",
+   "https://*/*"
   ]
 }
