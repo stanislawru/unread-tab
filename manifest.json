@@ -6,14 +6,16 @@
  "short_name": "__MSG_extensionShortName__",
  "author": "__MSG_extensionAuthors__",
  "description": "__MSG_extensionDescription__",
- "version": "1.7.2",
+ "version": "1.7.3",
  "icons":
   {
    "48": "icons/unread-tab-048x048.png",
    "96": "icons/unread-tab-096x096.png",
    "128": "icons/unread-tab-128x128.png"
   },
- "background": {"scripts": ["background.js"]},
+ "background": {
+   "service_worker": "service_worker.js",
+   "type": "module"},
  "options_page": "options.html",
  "permissions":
   [

@@ -2,6 +2,9 @@
 
 The changes log aka versions history is below in the reverse chronological order (the latest version is at the top).
 
+## Version 1.7.3
+* The background.scripts parameter was changed to background.service_worker in the manifest.
+
 ## Version 1.7.2
 * The manifest was updated to the version 3.
 
