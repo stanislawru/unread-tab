@@ -2,6 +2,9 @@
 
 The changes log aka versions history is below in the reverse chronological order (the latest version is at the top).
 
+## Version 1.7.5
+* The reliability of the service_worker.js script was improved with the great help of @badrelmers.
+
 ## Version 1.7.4
 * All the scripts (options.js and service_worker.js) were moved to a dedicated folder (scripts).
 * The service_worker.js script was re-written to reflect the API change from chrome.tabs.executeScript to chrome.scripting.executeScript.
