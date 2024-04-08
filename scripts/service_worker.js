@@ -17,6 +17,7 @@ chrome.storage.sync.get
 
 		chrome.tabs.onActivated.addListener((activeInfo) => {
 			chrome.tabs.get(activeInfo.tabId, function (tab) {
+				if (chrome.runtime.lastError) return;
 				const tabTitle = tab.title || '';
 				const varName = 'chromeTab' + activeInfo.tabId + 'status';
 				if (tab.url && tab.url.startsWith('http') && tabTitle.trim().startsWith(prefix.trim())) {
@@ -33,7 +34,7 @@ chrome.storage.sync.get
 
 		chrome.tabs.onRemoved.addListener((tabId, removeInfo) => {
 			const varName = 'chromeTab' + tabId + 'status';
-			localStorage.removeItem(varName);
+			chrome.storage.local.remove(varName);
             	});
 
 		chrome.tabs.onUpdated.addListener((tabId, changeInfo, tabInfo) => {
